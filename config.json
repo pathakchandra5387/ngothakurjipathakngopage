@@ -1,0 +1,25 @@
+{
+    "society": "Shaheed Thakur Ji Pathak Welfare Society National Wing",
+    "founded": 1995,
+    "location": "Jamshedpur, Jharkhand, India",
+    "mission": "To carry forward the legacy of Thakur Ji Pathak by supporting needy people and promoting social welfare.",
+    "contact": {
+        "email": "info@shaheedthakurjipathak.org",
+        "phone": "+91-1234567890",
+        "headOffice": "Jamshedpur, Jharkhand, India"
+    },
+    "leaders": {
+        "president": "Surya Pathak",
+        "secretary": "Chandra Pathak"
+    },
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/pathak5387/",
+        "instagram": "https://www.instagram.com/shaheed_thakurjipathak_society/"
+    },
+    "activities": [
+        "Distributing food supplies to needy families",
+        "Providing masks and essentials during crises",
+        "Organizing commemorative programs",
+        "Awarding welfare prizes"
+    ]
+}
