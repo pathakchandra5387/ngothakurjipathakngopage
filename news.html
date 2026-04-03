@@ -8,7 +8,13 @@
 </head>
 <body>
     <header>
-        <h1>Shaheed Thakur Ji Pathak Welfare Society National Wing</h1>
+        <div class="logo-bar">
+            <img src="https://via.placeholder.com/170x80?text=STJP+Logo" alt="Shaheed Thakur Ji Pathak Welfare Society Logo" class="site-logo" onerror="this.src='https://via.placeholder.com/170x80?text=LOGO'" />
+            <div class="primary-title">
+                <h1>Shaheed Thakur Ji Pathak Welfare Society National Wing</h1>
+                <p>News, events, books and NHAI updates in one place</p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html#home">Home</a></li>
@@ -27,6 +33,15 @@
             <p>Stay updated with news from across India and around the world</p>
         </section>
 
+        <section class="special-updates">
+            <h3>Live Special Spotlight</h3>
+            <ul>
+                <li><strong>Upcoming Book:</strong> "In the Footsteps of Thakur Ji" launch on <strong>May 20, 2026</strong></li>
+                <li><strong>NHAI Update:</strong> Bihar-Jharkhand expressway approved for 2027 completion</li>
+                <li><strong>Event:</strong> Welfare Award Ceremony on <strong>June 15, 2026</strong> in Jamshedpur</li>
+            </ul>
+        </section>
+
         <!-- News Category Tabs -->
         <div class="news-tabs">
             <button class="tab-btn active" onclick="filterNews('international')">International</button>
@@ -37,6 +52,9 @@
             <button class="tab-btn" onclick="filterNews('uttar')">Uttar Pradesh</button>
             <button class="tab-btn" onclick="filterNews('odisha')">Odisha</button>
             <button class="tab-btn" onclick="filterNews('karnataka')">Karnataka</button>
+            <button class="tab-btn" onclick="filterNews('nhai')">NHAI</button>
+            <button class="tab-btn" onclick="filterNews('book')">Book</button>
+            <button class="tab-btn" onclick="filterNews('events')">Events</button>
         </div>
 
         <!-- News Feed -->
